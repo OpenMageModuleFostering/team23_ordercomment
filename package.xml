@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+    <name>Team23_OrderComment</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/mit-license.php">MITL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension allows your customers to add their comment or question to orders on checkout review page.</summary>
+    <description>&lt;p&gt;Team23 Customer Order Comment allows your customers to add their &lt;strong&gt;comment or question&lt;/strong&gt;before submitting any order. This extension adds a comment box to the last step in the checkout process. After the order has been placed, the comment will be added as customer notice and viewable in the order review page in Magento backend.&lt;/p&gt;&#xD;
+&lt;h2&gt;Features&lt;/h2&gt;&#xD;
+&lt;ul&gt;&lt;li&gt;Add comment box to the last step in checkout process&lt;/li&gt;&lt;li&gt;Comments were added as customer notice&lt;/li&gt;&lt;li&gt;Light and easy to use&lt;/li&gt;&lt;/ul&gt;&#xD;
+&lt;h2&gt;Notes&lt;/h2&gt;&#xD;
+&lt;p&gt;This module is tested with basic theme and OnePageCheckout.&lt;/p&gt;&#xD;
+&lt;h2&gt;License&lt;/h2&gt;&#xD;
+&lt;p&gt;This module is licensed under the &lt;a href="http://opensource.org/licenses/MIT"&gt;MIT license&lt;/a&gt;.&lt;/p&gt;</description>
+    <notes>First stable release.</notes>
+    <authors><author><name>Marc Rochow</name><user>team23</user><email>info@team23.de</email></author></authors>
+    <date>2014-04-04</date>
+    <time>16:13:04</time>
+    <contents><target name="magecommunity"><dir name="Team23"><dir name="OrderComment"><dir name="Block"><dir name="Checkout"><file name="Comment.php" hash="dc969f07ec43faafadd5a9f124b6fcac"/></dir></dir><dir name="Helper"><file name="Data.php" hash="b11fc5e99a335f05b29dc86999bf26b0"/></dir><dir name="Model"><file name="Observer.php" hash="2407e8707df5cdb0ebc9e319f14fc5aa"/></dir><dir name="etc"><file name="config.xml" hash="f3ca83cde166b3c96ce6dd4ed2d4f419"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="ordercomment.xml" hash="efd55f39ef6dc2ef99ba35badd7ceaae"/></dir><dir name="template"><dir name="ordercomment"><dir name="checkout"><dir name="onepage"><file name="comment.phtml" hash="a023a33bc3f5d5239cc43fdad5932e45"/><file name="review.phtml" hash="4c61f10662f834b544892cb1b3cc65cf"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Team23_OrderComment.xml" hash="c10dba9ec1a46dd5f238932ff4e08976"/></dir></target><target name="magelocale"><dir name="de_DE"><file name="Team23_OrderComment.csv" hash="b3996ba0fec8b80ac1722fca6485d4b6"/></dir><dir name="en_US"><file name="Team23_OrderComment.csv" hash="e57a01ecfeade9d7678fcba14c7ee02b"/></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><dir name="team23"><file name="ordercomment.css" hash="5ae6fbf59b4557357ec2319b5480d5aa"/></dir></dir><dir name="js"><dir name="team23"><file name="ordercomment.js" hash="e2e043182e6a574017a1abcfee27f3e6"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php><package><name>Magento_Core_Modules</name><channel>community</channel><min>1.6.0.0</min><max>1.8.1.0</max></package></required></dependencies>
+</package>
