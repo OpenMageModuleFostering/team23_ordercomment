@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Team23_OrderComment",
+    "name": "OpenMageModuleFostering\/Team23_OrderComment",
     "type": "magento-module",
     "license": "MITL",
     "homepage": "",
     "description": "This extension allows your customers to add their comment or question to orders on checkout review page.",
     "authors": [
-    {
-        "name": "Marc Rochow",
-        "email": "info@team23.de"
-    }
-],
+        {
+            "name": "Marc Rochow",
+            "email": "info@team23.de"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
